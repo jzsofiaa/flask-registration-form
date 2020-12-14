@@ -1,0 +1,99 @@
+body {
+  background-color: #FFF7F8;
+  color: #191919;
+  font-family: 'Lora', serif;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+}
+/*
+table, th, td, tbody {
+
+}
+*/
+table {
+	border-collapse: collapse;
+	border: 2px solid #494942;
+}
+
+thead {
+  background-color: #494942;
+  color:  #FFF7F8;
+  letter-spacing: 0.05rem;
+}
+
+th {
+  text-align: left;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  height: 3.5rem;
+  width: 12rem;
+}
+
+tbody {
+  background-color: #fff;
+}
+
+td {
+  width: 12rem;
+  height: 2rem;
+  padding-left: 1rem;
+}
+
+#delete-th,
+#edit-th {
+  width: 2rem;
+}
+
+#delete-button-td,
+#edit-button-td {
+  width: 2rem;
+}
+
+.delete-button {
+  color: #ff4f56;
+  font-size: 2.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit-button {
+  color: #661f22;
+  font-size: 1.8rem;
+  margin-right: 1.3rem;
+  cursor: pointer;
+}
+
+#btn-container {
+  margin-top: 3rem;
+}
+
+#registration-button {
+  background-color: #ff4f56;
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  border-radius: 2rem;
+  border: none;
+  height: 2.5rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+#registration-button:hover {
+    background-color: #ff7277;
+}

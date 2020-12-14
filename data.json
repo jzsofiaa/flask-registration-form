@@ -1,0 +1,26 @@
+[
+  {
+    "email": "asfas@sgsdg.com", 
+    "firstname": "John", 
+    "gender": "male", 
+    "id": 8968, 
+    "lastname": "Boss", 
+    "phonenumber": "99-999-9999"
+  }, 
+  {
+    "email": "gab@gmail.com", 
+    "firstname": "Gabriella", 
+    "gender": "female", 
+    "id": 5290, 
+    "lastname": "Doe", 
+    "phonenumber": "99-333-4444"
+  }, 
+  {
+    "email": "john@gmail.com", 
+    "firstname": "John", 
+    "gender": "male", 
+    "id": 5176, 
+    "lastname": "Doe", 
+    "phonenumber": "99-333-4444"
+  }
+]

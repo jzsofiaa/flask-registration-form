@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>TITLE</title>
+     <meta name="description" content="DESCRIPTION">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/home.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/modal.css') }}">
+    <script src="/static/js/table.js" defer></script>
+
+     <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+ </head>
+
+ <body onload="tableData()">
+
+   <div id="main-container">
+     <div>
+       <h1>User's data</h1>
+     </div>
+     <div id="table-container">
+       <table>
+         <thead>
+           <tr>
+             <th>First name</th>
+             <th>Last name</th>
+             <th>Gender</th>
+             <th>Email adress</th>
+             <th>Phone number</th>
+             <th id="delete-th"></th>
+             <th id="edit-th"></th>
+           </tr>
+         </thead>
+         <tbody id="table-body">
+         </tbody>
+       </table>
+     </div>
+     <div id="btn-container">
+       <a href="{{ url_for('registration') }}"><button id="registration-button">Registration</button></a>
+     </div>
+   </div>
+
+   <!-- confirm modal -->
+   <div id="confirm-modal" class="close-modal">
+     <div id="message-box">
+       <div id="close-button" class="close-modal">&times;</div>
+       <h3>Are you sure want to delete?</h3>
+       <div id="button-container">
+         <button type="button" id="no-button" class="close-modal">No</button>
+         <button type="button" id="yes-button">Yes</button>
+       </div>
+     </div>
+   </div>
+
+ </body>
+
+ </html>
